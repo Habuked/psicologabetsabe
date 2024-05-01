@@ -1,0 +1,27 @@
+1. Para agregar la dependencia de desarrollo en el proyecto.
+npm i --save-dev gulp
+
+2. Para agregar gulp-sass y sass, gulp-sass es el intermedio que comunica gulp y sass
+npm i --save-dev sass gulp-sass
+
+2. reviso en el package.json que exista.
+    "gulp": "^5.0.0",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.75.0"
+
+3. abrir powershell con click derecho administrador, para instalar el cliente de forma global.
+npm i -g gulp-cli
+
+4. hay que crear un archivo en la ruta principal
+nombrarlo: gulpfile.js
+
+5. importar dependencia npm i --save-dev gulp-imagemin@7.1.0 esto para reducir el peso de las imageness
+
+npm i --save-dev gulp-imagemin@7.1.0
+
++++++++ una vez terminado el proyecto ++++++++++
+
+1. Realizar el purge.. eliminar lo innecesario. se instala 2 dependencias (gulp-purgecss y gulp-rename)
+npm i --save-dev gulp-purgecss gulp-rename
+
+2. gulp build para ejecutar la funcion que hace purge y rename en el archivo gulpfile.js
